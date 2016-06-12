@@ -28,8 +28,16 @@ if(isset($_POST['btn-login']))
 	else
 	{
 		?>
-        <script>alert('Username / Password Seems Wrong !');</script>
+        <script>alert('Username / Password must have at least 2 charachters !');</script>
         <?php
+	}
+
+	$errors = "";
+	if(strlen($email) < 2){
+	$errors .= "Username must have at least 2 characters\r\n";
+	}
+	if(strlen($upass) < 2){
+	$errors .= "Password must have at least 2 characters\r\n";
 	}
 	
 }
@@ -38,7 +46,7 @@ if(isset($_POST['btn-login']))
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>IT255-DZ08-Dejan_Stankovic_2295</title>
+	<title>IT255-DZ13-Dejan_Stankovic_2295</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>

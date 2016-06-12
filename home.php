@@ -15,7 +15,7 @@ $userRow=mysql_fetch_array($res);
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, maximum-scale=1">
-  <title>IT255-DZ11-Dejan_Stankovic_2295</title>
+  <title>IT255-DZ13-Dejan_Stankovic_2295</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css"> 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
@@ -236,7 +236,7 @@ $userRow=mysql_fetch_array($res);
   </div>
 
   <div class="container">
-    <div class="footer_bottom"><span>IT255-DZ11 Dejan Staković 2295</a>. </span> </div>
+    <div class="footer_bottom"><span>IT255-DZ13 Dejan Staković 2295</a>. </span> </div>
   </div>
 </footer>
 
